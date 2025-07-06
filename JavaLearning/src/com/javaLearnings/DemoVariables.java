@@ -16,7 +16,6 @@ public class DemoVariables {
 		System.out.println("====static m2()");
 		System.out.println("The Value of a:"+a);
 		System.out.println("The Value of b:"+b);
-// Pushing again to git
 	}
 
 	public static void main(String[] args) {
