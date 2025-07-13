@@ -16,7 +16,7 @@ public class DemoMethods1 {
 		System.out.println("User Mail Id :"+mail);
 		System.out.println("User Phone No :"+phone);
 		
-
+		s.close(); // Closed object because of warning that object never closed.
 	}
 
 }
