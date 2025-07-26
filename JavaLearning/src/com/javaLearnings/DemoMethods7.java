@@ -1,4 +1,4 @@
- /* Program to accept rollNo, Name, branch and marks of 6 subjects and calculate
+/* Program to accept rollNo, Name, branch and marks of 6 subjects and calculate
  * Total Marks
  * Percentage
  * Grade
@@ -41,7 +41,7 @@ return(s1+s2+s3+s4+s5+s6);
 }
 }
 
-class percentage{
+class Percent{
 float calculate(int totMarks) {
 return (float) totMarks/6;//TypeCasting
 
@@ -106,7 +106,7 @@ p = true;
 }
 TotalMarks tm = new TotalMarks();
 int tMarks = tm.add(sub1,sub2,sub3,sub4,sub5,sub6);
-percentage pr = new percentage();
+Percent pr = new Percent();
 float per = pr.calculate(tMarks);
 StuResult sr = new StuResult();
 String result = sr.generate(per,p);
