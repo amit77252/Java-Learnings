@@ -1,4 +1,5 @@
 package com.javaLearnings;
+//Program to use constructor syntax
 
 public class DemoCon1 {
 
