@@ -1,4 +1,6 @@
 package com.javaLearnings;
+/*Program to use string, take input and show string, length and character based on Index
+of String*/
 import java.util.*;
 public class DemoString1 {
 
