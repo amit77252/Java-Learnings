@@ -1,6 +1,6 @@
 package com.javaLearnings;
 /* Program to input string, retrieve character based on Index and find out
- * the character is vowel or consonent
+ * the character is vowel or consonant.
  */
 import java.util.*;
 public class DemoString1a {
